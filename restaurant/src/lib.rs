@@ -1,8 +1,6 @@
 mod front_of_house;
 
-
 pub use front_of_house::hosting::add_to_waitlist;
-
 
 pub fn eat_at_restaurant() {
     // absolute path

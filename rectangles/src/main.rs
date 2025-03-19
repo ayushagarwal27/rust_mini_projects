@@ -1,3 +1,5 @@
+use std::{fs::File, io::ErrorKind};
+
 fn main() {
     let rect = Rectangle {
         width: 20,
@@ -19,6 +21,8 @@ fn main() {
 
     // print!("{:#?}", rect);
     // dbg!(&rect);
+    // let v = vec![1, 2, 3];
+    // v[99];
 }
 
 #[derive(Debug)]
